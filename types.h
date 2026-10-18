@@ -6,14 +6,20 @@ enum Mode {
     MODE_LOADING,
     MODE_POPUP,
     MODE_PREVIEW,
+    MODE_CAPTURE,
+    MODE_CAMERA_MODES,
     MODE_DIAG,
     MODE_NOTIFY,
     MODE_SD_MISSING,
     MODE_ALERT,
     MODE_WIFI_OPTIONS,
     MODE_NETWORK,
-    MODE_SCAN_QR,        // live camera + tick overlay
-    MODE_QR_CONFIRM      // SSID/pass + Yes/No
+    MODE_WIFI_SCAN_LIST,
+    MODE_SCAN_QR,
+    MODE_QR_CONFIRM,
+    MODE_KB_SSID,
+    MODE_KB_PSK,
+    MODE_WIFI_CONNECTING
 };
 
 enum LoadPurpose {
